@@ -1,0 +1,121 @@
+
+Python (programming language) – Detailed Summary
+
+Source: Wikipedia – https://en.wikipedia.org/wiki/Python_(programming_language)
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+
+Overview:
+Python is a high-level, interpreted, general-purpose programming language known for readability and simplicity. Created by Guido van Rossum and first released in 1991, it emphasizes code clarity with significant indentation. Python supports multiple paradigms including procedural, object-oriented, and functional programming.
+
+Contents:
+- History
+- Features and philosophy
+- Syntax and semantics
+- Libraries and ecosystem
+- Implementations
+- Development and governance
+- Uses and adoption
+- Design philosophy (Zen of Python)
+- Typing and dynamic behavior
+- Performance
+- Examples
+- References
+
+History:
+- Developed by Guido van Rossum at CWI in the late 1980s.
+- Influenced by ABC language but aimed to fix its flaws.
+- First released in 1991.
+- Major versions:
+  - Python 2.0 (2000): Introduced list comprehensions, garbage collection.
+  - Python 3.0 (2008): Not backward-compatible, cleaned-up design.
+- Python 2 reached end-of-life in 2020.
+
+Features and Philosophy:
+- Interpreted and high-level.
+- Multi-paradigm: supports object-oriented, functional, and procedural styles.
+- Dynamic typing, automatic memory management (garbage collection).
+- Emphasizes readability with indentation.
+- Batteries-included philosophy: large standard library.
+
+Syntax and Semantics:
+- Uses indentation to define code blocks.
+- No braces; colon and indent signify structure.
+- Dynamic typing and name binding.
+- Functions are first-class objects; supports closures and decorators.
+- Supports metaprogramming and introspection.
+- Duck typing (type checks are deferred to runtime).
+
+Libraries and Ecosystem:
+- Massive standard library ("batteries included").
+- Package Index (PyPI) with hundreds of thousands of packages.
+- Popular libraries include:
+  - NumPy, pandas (data analysis)
+  - Django, Flask (web frameworks)
+  - TensorFlow, PyTorch (machine learning)
+  - Requests (HTTP)
+  - BeautifulSoup (parsing)
+- Virtual environments isolate project dependencies.
+
+Implementations:
+- CPython (reference implementation, written in C).
+- PyPy (JIT-compiled).
+- Jython (for JVM).
+- IronPython (.NET integration).
+- MicroPython (embedded systems).
+- RustPython (experimental, written in Rust).
+
+Development and Governance:
+- Managed by the Python Software Foundation (PSF).
+- Language changes proposed via PEPs (Python Enhancement Proposals).
+- BDFL model historically (Guido van Rossum as "Benevolent Dictator for Life").
+- Now governed by a Steering Council.
+
+Uses and Adoption:
+- Widely used in:
+  - Web development
+  - Data science
+  - Machine learning
+  - Scripting and automation
+  - Education
+  - Scientific computing
+- Popular for beginner programmers due to simplicity.
+
+Design Philosophy (Zen of Python):
+- Accessible via `import this` in interpreter.
+- Highlights include:
+  - Beautiful is better than ugly.
+  - Explicit is better than implicit.
+  - Simple is better than complex.
+  - Readability counts.
+  - Errors should never pass silently.
+  - There should be one—and preferably only one—obvious way to do it.
+
+Typing and Dynamic Behavior:
+- Dynamically typed, but optional static typing via type hints (PEP 484).
+- Supports gradual typing.
+- Type checkers like mypy available.
+
+Performance:
+- Interpreted, slower than compiled languages.
+- Performance-critical parts often written in C.
+- JIT implementations (PyPy) improve speed.
+
+Examples:
+Hello world:
+print("Hello, world!")
+
+Defining a function:
+def greet(name):
+    return f"Hello, {name}!"
+
+List comprehension:
+squares = [x**2 for x in range(10)]
+
+References:
+- Official Website: https://www.python.org
+- Python Software Foundation: https://www.python.org/psf/
+- Python Package Index: https://pypi.org/
+- Wikipedia – Python (programming language): https://en.wikipedia.org/wiki/Python_(programming_language)
+
+License Notice:
+This summary is adapted from content on Wikipedia, available under the Creative Commons Attribution-ShareAlike License (https://creativecommons.org/licenses/by-sa/3.0/).
